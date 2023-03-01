@@ -1,0 +1,13 @@
+name = "Plotter"
+uuid = "0935d5d3-2d35-4c22-b7e7-a9cb636cfacd"
+authors = ["Alessandro Colotti <alessandro.colotti@ls2n.fr> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
