@@ -4,10 +4,10 @@ module Plotter
     import GLMakie as GLM
     import Dates
 
-    import ..Desiderata as Des
-    import ..RotationConversions as RC
-    import ..VSSystems as VS
-    import ..Utilities as Uti
+    import Desiderata as Des
+    import RotationConversions as RC
+    import VSSystems as VS
+    import Utilities as Uti
     include("Plotter_planar.jl")
     include("Plotter_circular.jl")
     include("Plotter_spatial.jl")
